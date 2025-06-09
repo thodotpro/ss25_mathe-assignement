@@ -1,0 +1,13 @@
+[project]
+name = "prompt_engineering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "notebook",
+    "ipykernel",
+    # If you want to use the local toolagentlab as a dependency, uncomment the next line:
+    # "toolagentlab @ file://../toolagentlab"
+    "python-dotenv>=1.1.0",
+]
