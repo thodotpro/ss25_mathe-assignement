@@ -2,15 +2,14 @@
 
 Dieses Repository enthält ein vollständiges KI-gestütztes Mathematik-Assignment-Framework bestehend aus zwei Hauptteilen:
 
-- **assignement/**: Aufgabenstellung, Notebook, Einstiegsskripte und Projektdateien für die konkrete Aufgabenbearbeitung.
+- **assignement/**: Aufgabenstellung, Einstiegsskripte und Projektdateien für die konkrete Aufgabenbearbeitung.
 - **toolagentlab/**: Modularer Python-Agent (ToolAgentLab) mit flexiblen mathematischen Tools, Logging, Plotting und ReAct-Pattern.
 
 ## Projektstruktur
 
 ```
 ss25_mathe-assignement/
-├── assignement/           # Aufgabenstellung, Notebook, Einstiegsskripte
-│   ├── prompt_engineering.ipynb
+├── assignement/           # Aufgabenstellung, Einstiegsskripte
 │   ├── prompt_engineering.py
 │   ├── pyproject.toml
 │   ├── README.md
@@ -51,8 +50,7 @@ ss25_mathe-assignement/
    ```
    GOOGLE_API_KEY=dein-key-hier
    ```
-5. **Notebook oder Skript starten**
-   - Notebook: `assignement/prompt_engineering.ipynb`
+5. **Skript starten**
    - Skript: `python assignement/prompt_engineering.py`
 
 ## Beispiel für Agent-Nutzung
